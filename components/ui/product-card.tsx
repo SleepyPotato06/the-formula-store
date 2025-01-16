@@ -1,10 +1,17 @@
 import Image from "next/image";
-import { Orbitron, Lexend } from "next/font/google";
+import { Lexend } from "next/font/google";
+import { StaticImageData } from "next/image";
 
-const orbitron_medium = Orbitron({ weight: "600", subsets: ["latin"] });
+interface ProductCardProps {
+  productTitle: string;
+  productPrice: string;
+  productImageSource: string | StaticImageData;
+}
+
 const lexend_light = Lexend({ weight: "300", subsets: ["latin"] });
 const lexend_medium = Lexend({ weight: "600", subsets: ["latin"] });
-export default function ProductCard(props) {
+
+export default function ProductCard(props: ProductCardProps) {
   return (
     <>
       <div className="min-w-[20rem] min-h-fit bg-slate-50 rounded-lg p-4 shadow-inner">
