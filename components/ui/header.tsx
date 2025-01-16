@@ -11,7 +11,7 @@ const orbitron_medium = Orbitron({ weight: "600", subsets: ["latin"] });
 const lexend_medium = Lexend({ weight: "600", subsets: ["latin"] });
 
 const pages = [
-  { id: "1", name: "Homes", link: "/" },
+  { id: "1", name: "Home", link: "/" },
   { id: "2", name: "Clearance", link: "/clearance" },
   { id: "3", name: "By Team", link: "/by-team" },
   { id: "4", name: "By Driver", link: "/by-driver" },
