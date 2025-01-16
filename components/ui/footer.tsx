@@ -1,7 +1,7 @@
-import { Orbitron, Lexend } from "next/font/google";
+import { Orbitron } from "next/font/google";
 
 const orbitron_medium = Orbitron({ weight: "600", subsets: ["latin"] });
-const lexend_medium = Lexend({ weight: "600", subsets: ["latin"] });
+
 export default function Footer() {
   return (
     <div
@@ -17,7 +17,8 @@ export default function Footer() {
       </div>
       <div>
         <span className="text-black">
-          © 2025 The<span className="text-red-600">Formula</span>Store™. All Rights Reserved.
+          © 2025 The<span className="text-red-600">Formula</span>Store™. All
+          Rights Reserved.
         </span>
       </div>
     </div>

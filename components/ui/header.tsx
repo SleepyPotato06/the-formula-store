@@ -1,11 +1,7 @@
-import Logo from "../../public/Logo.svg";
-import Image from "next/image";
-import { Button } from "../ui/button";
 import Link from "next/link";
 import {
   IoCartOutline,
   IoPersonCircleOutline,
-  IoSearch,
   IoHeartOutline,
   IoCallOutline,
 } from "react-icons/io5";
